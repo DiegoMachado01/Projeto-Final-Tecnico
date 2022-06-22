@@ -17,7 +17,6 @@ public class POOaplication {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Seja bem vindo\n");
         Menu menu = new Menu();
-        menu.Menu();
         int opcao = 3;
 
         while (opcao < 4) {
@@ -34,7 +33,7 @@ public class POOaplication {
                 case 3:
                     menu.comanda();
                     break;
-                    
+
             }
 
         }
